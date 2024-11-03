@@ -1,0 +1,13 @@
+# Parameters for the project and model
+
+model_params = {
+    'sequence_length': 30,
+    'num_coins': num_coins,
+    'embedding_dim': embedding_dim,
+    'lstm_units': lstm_units
+}
+
+look_back_forward_params = {
+    'look_back': 7,
+    'look_forward': 5
+}
